@@ -3,6 +3,7 @@
 If you like, you can run and test all the code using Python 3.8.3 in a Docker image:
 
 ```
-$ docker pull kyclark/tiny_python_projects:0.2.0
-$ docker run -it --rm kyclark/tiny_python_projects:0.2.0 bash
+docker build -t tiny_python_projects .
+
+docker run -it --rm -d -v c:/Users/danie/PROJECTS/tiny_python_projects:/app tiny_python_projects bash
 ```
